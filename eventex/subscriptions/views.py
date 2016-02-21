@@ -36,9 +36,9 @@ def create(request):
 
 
 def new(request):
-   return render(request, 'subscriptions/subscription_form.html', {'form': SubscriptionForm()})
+    return render(request, 'subscriptions/subscription_form.html', {'form': SubscriptionForm()})
 
 
 def _send_mail(subject, from_, to, template_name, context):
-        body = render_to_string(template_name=template_name, context=context)
-        mail.send_mail(subject, body, from_, [from_, to])
+    body = render_to_string(template_name=template_name, context=context)
+    mail.send_mail(subject, body, from_, [from_, to])
