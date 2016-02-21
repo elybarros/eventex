@@ -2,6 +2,9 @@
 
 Sistema de  Eventos encomendado pela Morena.
 
+[![Build Status](https://travis-ci.org/elybarros/eventex.svg?branch=master)](https://travis-ci.org/elybarros/eventex)
+[![Code Health](https://landscape.io/github/elybarros/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/elybarros/eventex/master)
+
 ## Como desenvolver?
 
 1. Clone um repositório.
